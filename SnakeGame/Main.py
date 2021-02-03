@@ -8,7 +8,7 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("SNEAK GAME")
-screen.tracer(0)  # Search , doesn't work if it's update
+screen.tracer(0)  # Search , doesn't work if it's not updated
 
 snake = Snake()
 food = Food()
